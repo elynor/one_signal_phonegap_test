@@ -16,3 +16,9 @@ Mass - you will send notifications to all users
 
 **device_id** - *string* - parameter only for user action. Specifies the id of device
 
+#Tests
+
+To run tests add autoloader to phpunit, i.e:
+```
+phpunit --bootstrap autoload.php tests/NotificationApiTest.php
+```
